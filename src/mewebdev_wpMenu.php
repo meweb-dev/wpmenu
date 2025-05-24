@@ -2,8 +2,6 @@
 
 namespace Mewebdev\Wpmenu;
 
-require_once './class.MeWebDev_WPMenuItems.php';
-
 class MeWebDev_WPMenu extends MeWebDev_WPMenuItems
 {
     /**
