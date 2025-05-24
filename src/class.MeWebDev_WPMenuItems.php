@@ -1,4 +1,5 @@
 <?php 
+namespace Mewebdev\Wpmenu;
 
 class MeWebDev_WPMenuItems
 {
