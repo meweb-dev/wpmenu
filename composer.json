@@ -1,0 +1,17 @@
+{
+    "name": "mewebdev/wpmenu",
+    "description": "Retrieves a WordPress menu and dynamically generates a structured <ul> element for seamless integration.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mewebdev\\Wpmenu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matias Escudero"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
