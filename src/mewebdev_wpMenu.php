@@ -16,13 +16,16 @@ class MeWebDev_WPMenu extends MeWebDev_WPMenuItems
 
     public function getMenu()
     {
-        $menu_list = '<ul>';
-                
-            $menu_list .= $this->getMenuItems($this->menuItems);
+        if(is_array($this->menuItems) && count($this->menuItems) > 0) {
 
-        $menu_list .= '</ul>';
-
-        return $menu_list;
+            $menu_list = '<ul>';
+                    
+                $menu_list .= $this->getMenuItems($this->menuItems);
+    
+            $menu_list .= '</ul>';
+    
+            return $menu_list;
+        }
 
     }
 
