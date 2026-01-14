@@ -14,7 +14,7 @@ class MeWebDev_WPMenuItems
         }
     }
 
-    public function getMenuItems() {
+    public function getItems() {
 
         return $this->menuItems;
     }
