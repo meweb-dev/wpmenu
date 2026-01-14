@@ -14,6 +14,11 @@ class MeWebDev_WPMenuItems
         }
     }
 
+    public function getMenuItems() {
+
+        return $this->menuItems;
+    }
+
     protected function has_children($menu_items, $object_id) 
     {
         $has_children = false;
